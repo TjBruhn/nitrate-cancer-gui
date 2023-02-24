@@ -1,0 +1,5 @@
+High nitrate concentrations in drinking water are a known health hazard. Concerns about a possible cancer risk for adults from nitrate exposure have recently emerged. This tool allows users to explore the relationship between nitrate levels in well-water and rates of cancer.
+
+Cancer rates are normalized by census tract population using data of the location of all cancer occurrences in Wisconsin over a ten-year period. Nitrate levels are from required water testing when new wells are dug or when existing wells are repaired by licensed contractors. 
+
+The application uses inverse distance weighting (IDW) to produce a raster map of nitrate levels. Users may run the analysis for the distance exponent k for any k > 1. The application then runs a linear regression to model the potential relationship between nitrate concentrations and cancer occurrences. 
